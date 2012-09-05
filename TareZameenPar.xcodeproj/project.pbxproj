@@ -15,6 +15,9 @@
 		84C194B615F7844C00D93726 /* TZPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C194B515F7844C00D93726 /* TZPAppDelegate.m */; };
 		84C194B915F7844C00D93726 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C194B715F7844C00D93726 /* MainStoryboard.storyboard */; };
 		84C194BC15F7844C00D93726 /* TZPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C194BB15F7844C00D93726 /* TZPViewController.m */; };
+		84C194C315F7851C00D93726 /* pooh-alphabet-letter-a.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84C194C215F7851C00D93726 /* pooh-alphabet-letter-a.jpeg */; };
+		84C194C715F7892100D93726 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C194C615F7892100D93726 /* AVFoundation.framework */; };
+		84C194C915F78A1F00D93726 /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84C194C815F78A1F00D93726 /* a.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		84C194B815F7844C00D93726 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		84C194BA15F7844C00D93726 /* TZPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZPViewController.h; sourceTree = "<group>"; };
 		84C194BB15F7844C00D93726 /* TZPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZPViewController.m; sourceTree = "<group>"; };
+		84C194C215F7851C00D93726 /* pooh-alphabet-letter-a.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pooh-alphabet-letter-a.jpeg"; sourceTree = "<group>"; };
+		84C194C615F7892100D93726 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84C194C815F78A1F00D93726 /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C194C715F7892100D93726 /* AVFoundation.framework in Frameworks */,
 				84C194A615F7844C00D93726 /* UIKit.framework in Frameworks */,
 				84C194A815F7844C00D93726 /* Foundation.framework in Frameworks */,
 				84C194AA15F7844C00D93726 /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +57,7 @@
 		84C1949615F7844C00D93726 = {
 			isa = PBXGroup;
 			children = (
+				84C194C615F7892100D93726 /* AVFoundation.framework */,
 				84C194AB15F7844C00D93726 /* TareZameenPar */,
 				84C194A415F7844C00D93726 /* Frameworks */,
 				84C194A215F7844C00D93726 /* Products */,
@@ -77,6 +85,8 @@
 		84C194AB15F7844C00D93726 /* TareZameenPar */ = {
 			isa = PBXGroup;
 			children = (
+				84C194C815F78A1F00D93726 /* a.mp3 */,
+				84C194C215F7851C00D93726 /* pooh-alphabet-letter-a.jpeg */,
 				84C194B415F7844C00D93726 /* TZPAppDelegate.h */,
 				84C194B515F7844C00D93726 /* TZPAppDelegate.m */,
 				84C194B715F7844C00D93726 /* MainStoryboard.storyboard */,
@@ -152,6 +162,8 @@
 			files = (
 				84C194B015F7844C00D93726 /* InfoPlist.strings in Resources */,
 				84C194B915F7844C00D93726 /* MainStoryboard.storyboard in Resources */,
+				84C194C315F7851C00D93726 /* pooh-alphabet-letter-a.jpeg in Resources */,
+				84C194C915F78A1F00D93726 /* a.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

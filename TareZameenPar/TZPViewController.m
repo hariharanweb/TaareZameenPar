@@ -7,12 +7,15 @@
 //
 
 #import "TZPViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface TZPViewController ()
+@property AVAudioPlayer *avSound;
 
 @end
 
 @implementation TZPViewController
+@synthesize avSound;
 
 - (void)viewDidLoad
 {
@@ -31,4 +34,10 @@
     return YES;
 }
 
+- (IBAction)playSound:(id)sender {    
+    NSURL *soundURL = [[NSBundle mainBundle] URLForResource:@"a"
+                                              withExtension:@"mp3"];
+    avSound = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];    
+    [avSound play];
+}
 @end
