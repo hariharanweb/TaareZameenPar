@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C194A615F7844C00D93726 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C194A515F7844C00D93726 /* UIKit.framework */; };
+		84C194A815F7844C00D93726 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C194A715F7844C00D93726 /* Foundation.framework */; };
+		84C194AA15F7844C00D93726 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C194A915F7844C00D93726 /* CoreGraphics.framework */; };
+		84C194B015F7844C00D93726 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84C194AE15F7844C00D93726 /* InfoPlist.strings */; };
+		84C194B215F7844C00D93726 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C194B115F7844C00D93726 /* main.m */; };
+		84C194B615F7844C00D93726 /* TZPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C194B515F7844C00D93726 /* TZPAppDelegate.m */; };
+		84C194B915F7844C00D93726 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C194B715F7844C00D93726 /* MainStoryboard.storyboard */; };
+		84C194BC15F7844C00D93726 /* TZPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C194BB15F7844C00D93726 /* TZPViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84C194A115F7844C00D93726 /* TareZameenPar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TareZameenPar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C194A515F7844C00D93726 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84C194A715F7844C00D93726 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84C194A915F7844C00D93726 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84C194AD15F7844C00D93726 /* TareZameenPar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TareZameenPar-Info.plist"; sourceTree = "<group>"; };
+		84C194AF15F7844C00D93726 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84C194B115F7844C00D93726 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84C194B315F7844C00D93726 /* TareZameenPar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TareZameenPar-Prefix.pch"; sourceTree = "<group>"; };
+		84C194B415F7844C00D93726 /* TZPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZPAppDelegate.h; sourceTree = "<group>"; };
+		84C194B515F7844C00D93726 /* TZPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZPAppDelegate.m; sourceTree = "<group>"; };
+		84C194B815F7844C00D93726 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		84C194BA15F7844C00D93726 /* TZPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZPViewController.h; sourceTree = "<group>"; };
+		84C194BB15F7844C00D93726 /* TZPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZPViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C1949E15F7844C00D93726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C194A615F7844C00D93726 /* UIKit.framework in Frameworks */,
+				84C194A815F7844C00D93726 /* Foundation.framework in Frameworks */,
+				84C194AA15F7844C00D93726 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C1949615F7844C00D93726 = {
+			isa = PBXGroup;
+			children = (
+				84C194AB15F7844C00D93726 /* TareZameenPar */,
+				84C194A415F7844C00D93726 /* Frameworks */,
+				84C194A215F7844C00D93726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C194A215F7844C00D93726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C194A115F7844C00D93726 /* TareZameenPar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C194A415F7844C00D93726 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84C194A515F7844C00D93726 /* UIKit.framework */,
+				84C194A715F7844C00D93726 /* Foundation.framework */,
+				84C194A915F7844C00D93726 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84C194AB15F7844C00D93726 /* TareZameenPar */ = {
+			isa = PBXGroup;
+			children = (
+				84C194B415F7844C00D93726 /* TZPAppDelegate.h */,
+				84C194B515F7844C00D93726 /* TZPAppDelegate.m */,
+				84C194B715F7844C00D93726 /* MainStoryboard.storyboard */,
+				84C194BA15F7844C00D93726 /* TZPViewController.h */,
+				84C194BB15F7844C00D93726 /* TZPViewController.m */,
+				84C194AC15F7844C00D93726 /* Supporting Files */,
+			);
+			path = TareZameenPar;
+			sourceTree = "<group>";
+		};
+		84C194AC15F7844C00D93726 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84C194AD15F7844C00D93726 /* TareZameenPar-Info.plist */,
+				84C194AE15F7844C00D93726 /* InfoPlist.strings */,
+				84C194B115F7844C00D93726 /* main.m */,
+				84C194B315F7844C00D93726 /* TareZameenPar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C194A015F7844C00D93726 /* TareZameenPar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C194BF15F7844C00D93726 /* Build configuration list for PBXNativeTarget "TareZameenPar" */;
+			buildPhases = (
+				84C1949D15F7844C00D93726 /* Sources */,
+				84C1949E15F7844C00D93726 /* Frameworks */,
+				84C1949F15F7844C00D93726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TareZameenPar;
+			productName = TareZameenPar;
+			productReference = 84C194A115F7844C00D93726 /* TareZameenPar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C1949815F7844C00D93726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TZP;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Thoughtworks;
+			};
+			buildConfigurationList = 84C1949B15F7844C00D93726 /* Build configuration list for PBXProject "TareZameenPar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84C1949615F7844C00D93726;
+			productRefGroup = 84C194A215F7844C00D93726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C194A015F7844C00D93726 /* TareZameenPar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C1949F15F7844C00D93726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C194B015F7844C00D93726 /* InfoPlist.strings in Resources */,
+				84C194B915F7844C00D93726 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C1949D15F7844C00D93726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C194B215F7844C00D93726 /* main.m in Sources */,
+				84C194B615F7844C00D93726 /* TZPAppDelegate.m in Sources */,
+				84C194BC15F7844C00D93726 /* TZPViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84C194AE15F7844C00D93726 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C194AF15F7844C00D93726 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84C194B715F7844C00D93726 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C194B815F7844C00D93726 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C194BD15F7844C00D93726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		84C194BE15F7844C00D93726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C194C015F7844C00D93726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TareZameenPar/TareZameenPar-Prefix.pch";
+				INFOPLIST_FILE = "TareZameenPar/TareZameenPar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84C194C115F7844C00D93726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TareZameenPar/TareZameenPar-Prefix.pch";
+				INFOPLIST_FILE = "TareZameenPar/TareZameenPar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C1949B15F7844C00D93726 /* Build configuration list for PBXProject "TareZameenPar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C194BD15F7844C00D93726 /* Debug */,
+				84C194BE15F7844C00D93726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C194BF15F7844C00D93726 /* Build configuration list for PBXNativeTarget "TareZameenPar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C194C015F7844C00D93726 /* Debug */,
+				84C194C115F7844C00D93726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84C1949815F7844C00D93726 /* Project object */;
+}
