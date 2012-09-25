@@ -17,7 +17,16 @@
 		84C194BC15F7844C00D93726 /* TZPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C194BB15F7844C00D93726 /* TZPViewController.m */; };
 		84C194C315F7851C00D93726 /* pooh-alphabet-letter-a.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84C194C215F7851C00D93726 /* pooh-alphabet-letter-a.jpeg */; };
 		84C194C715F7892100D93726 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84C194C615F7892100D93726 /* AVFoundation.framework */; };
-		84C194C915F78A1F00D93726 /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84C194C815F78A1F00D93726 /* a.mp3 */; };
+		84C194C915F78A1F00D93726 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84C194C815F78A1F00D93726 /* A.mp3 */; };
+		A70EBE431611E7CD002F8B61 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = A70EBE421611E7CD002F8B61 /* Background.png */; };
+		A70EBE4B1611EA54002F8B61 /* A.png in Resources */ = {isa = PBXBuildFile; fileRef = A70EBE441611EA54002F8B61 /* A.png */; };
+		A70EBE4C1611EA54002F8B61 /* B.png in Resources */ = {isa = PBXBuildFile; fileRef = A70EBE451611EA54002F8B61 /* B.png */; };
+		A70EBE4D1611EA54002F8B61 /* C.png in Resources */ = {isa = PBXBuildFile; fileRef = A70EBE461611EA54002F8B61 /* C.png */; };
+		A70EBE4E1611EA54002F8B61 /* D.png in Resources */ = {isa = PBXBuildFile; fileRef = A70EBE471611EA54002F8B61 /* D.png */; };
+		A70EBE4F1611EA54002F8B61 /* E.png in Resources */ = {isa = PBXBuildFile; fileRef = A70EBE481611EA54002F8B61 /* E.png */; };
+		A70EBE501611EA54002F8B61 /* F.png in Resources */ = {isa = PBXBuildFile; fileRef = A70EBE491611EA54002F8B61 /* F.png */; };
+		A70EBE511611EA54002F8B61 /* G.png in Resources */ = {isa = PBXBuildFile; fileRef = A70EBE4A1611EA54002F8B61 /* G.png */; };
+		A70EBE531611F5BD002F8B61 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = A70EBE521611F5BD002F8B61 /* next.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +45,16 @@
 		84C194BB15F7844C00D93726 /* TZPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZPViewController.m; sourceTree = "<group>"; };
 		84C194C215F7851C00D93726 /* pooh-alphabet-letter-a.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pooh-alphabet-letter-a.jpeg"; sourceTree = "<group>"; };
 		84C194C615F7892100D93726 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		84C194C815F78A1F00D93726 /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a.mp3; sourceTree = "<group>"; };
+		84C194C815F78A1F00D93726 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = A.mp3; sourceTree = "<group>"; };
+		A70EBE421611E7CD002F8B61 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		A70EBE441611EA54002F8B61 /* A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A.png; sourceTree = "<group>"; };
+		A70EBE451611EA54002F8B61 /* B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = B.png; sourceTree = "<group>"; };
+		A70EBE461611EA54002F8B61 /* C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = C.png; sourceTree = "<group>"; };
+		A70EBE471611EA54002F8B61 /* D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = D.png; sourceTree = "<group>"; };
+		A70EBE481611EA54002F8B61 /* E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = E.png; sourceTree = "<group>"; };
+		A70EBE491611EA54002F8B61 /* F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = F.png; sourceTree = "<group>"; };
+		A70EBE4A1611EA54002F8B61 /* G.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = G.png; sourceTree = "<group>"; };
+		A70EBE521611F5BD002F8B61 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +103,6 @@
 		84C194AB15F7844C00D93726 /* TareZameenPar */ = {
 			isa = PBXGroup;
 			children = (
-				84C194C815F78A1F00D93726 /* a.mp3 */,
 				84C194C215F7851C00D93726 /* pooh-alphabet-letter-a.jpeg */,
 				84C194B415F7844C00D93726 /* TZPAppDelegate.h */,
 				84C194B515F7844C00D93726 /* TZPAppDelegate.m */,
@@ -100,6 +117,16 @@
 		84C194AC15F7844C00D93726 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84C194C815F78A1F00D93726 /* A.mp3 */,
+				A70EBE441611EA54002F8B61 /* A.png */,
+				A70EBE451611EA54002F8B61 /* B.png */,
+				A70EBE521611F5BD002F8B61 /* next.png */,
+				A70EBE461611EA54002F8B61 /* C.png */,
+				A70EBE471611EA54002F8B61 /* D.png */,
+				A70EBE481611EA54002F8B61 /* E.png */,
+				A70EBE491611EA54002F8B61 /* F.png */,
+				A70EBE4A1611EA54002F8B61 /* G.png */,
+				A70EBE421611E7CD002F8B61 /* Background.png */,
 				84C194AD15F7844C00D93726 /* TareZameenPar-Info.plist */,
 				84C194AE15F7844C00D93726 /* InfoPlist.strings */,
 				84C194B115F7844C00D93726 /* main.m */,
@@ -163,7 +190,16 @@
 				84C194B015F7844C00D93726 /* InfoPlist.strings in Resources */,
 				84C194B915F7844C00D93726 /* MainStoryboard.storyboard in Resources */,
 				84C194C315F7851C00D93726 /* pooh-alphabet-letter-a.jpeg in Resources */,
-				84C194C915F78A1F00D93726 /* a.mp3 in Resources */,
+				84C194C915F78A1F00D93726 /* A.mp3 in Resources */,
+				A70EBE431611E7CD002F8B61 /* Background.png in Resources */,
+				A70EBE4B1611EA54002F8B61 /* A.png in Resources */,
+				A70EBE4C1611EA54002F8B61 /* B.png in Resources */,
+				A70EBE4D1611EA54002F8B61 /* C.png in Resources */,
+				A70EBE4E1611EA54002F8B61 /* D.png in Resources */,
+				A70EBE4F1611EA54002F8B61 /* E.png in Resources */,
+				A70EBE501611EA54002F8B61 /* F.png in Resources */,
+				A70EBE511611EA54002F8B61 /* G.png in Resources */,
+				A70EBE531611F5BD002F8B61 /* next.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +330,7 @@
 				84C194C115F7844C00D93726 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
