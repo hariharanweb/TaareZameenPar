@@ -11,6 +11,7 @@
 
 @interface TZPLevel2ViewController ()
 @property AVQueuePlayer *queuePlayer;
+@property AVAudioPlayer *avplayer;
 
 @end
 
@@ -20,6 +21,7 @@
 }
 
 @synthesize queuePlayer;
+@synthesize avplayer;
 
 - (void)viewDidLoad
 {
@@ -96,21 +98,35 @@
         }
         page = page+1;
         page = page % 7;
-        [self displayPage];
+        
+        [self playSuccessFailure:TRUE];
+
+        
     }else{
 
         [self playSuccessFailure:FALSE];
     }
 }
 
--(void) playSuccessFailure:(BOOL) success {
-    NSString *fileName = success ? @"correct":@"wrong";    
-    NSString *soundUrl = [[NSBundle mainBundle] pathForResource:fileName ofType:@"mp3"];
-    AVPlayerItem *soundItem = [AVPlayerItem playerItemWithURL:[NSURL fileURLWithPath:soundUrl]];
-    self.queuePlayer = [AVQueuePlayer queuePlayerWithItems:[NSArray arrayWithObjects:soundItem,nil]];
-    [self.queuePlayer play];
-
+-(void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+    NSString *soundUrl = [[NSBundle mainBundle] pathForResource:@"correct" ofType:@"mp3"];
+    NSURL *url = [NSURL fileURLWithPath:soundUrl];
+    if ([player.url isEqual:url])
+    {
+        [self displayPage];
+    }
 }
+
+-(void) playSuccessFailure:(BOOL) success {
+    NSString *fileName = success ? @"correct":@"wrong";
+    NSString *soundUrl = [[NSBundle mainBundle] pathForResource:fileName ofType:@"mp3"];
+    avplayer =[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:soundUrl] error:nil];
+    [avplayer setDelegate:self];
+    [avplayer prepareToPlay];
+    [avplayer play];
+}
+
 - (IBAction)playSoundAgain:(id)sender {
     [self playSound];
 }
