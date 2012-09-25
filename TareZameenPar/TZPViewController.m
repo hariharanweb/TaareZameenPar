@@ -28,7 +28,7 @@
 }
 
 -(void) displayThreeAlphabets {
-    char alphabets[7] = {'A','G','B','F','C','E','D'};
+    char alphabets[27] = {'Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','J','K','L','Z','X','C','V','B','N','M','Q'};
     int startIndex = page * 3;
     
     UIImage *image1 = [UIImage imageNamed:[NSString stringWithFormat:@"%c.png",alphabets[startIndex]]];
@@ -41,9 +41,11 @@
     
     [[self nextImage] setHidden:FALSE];
     [[self prevImage] setHidden:FALSE];
+    [[self nextLevel] setHidden:TRUE];
     
-    if(page == 2) {
+    if(page == 8) {
         [[self nextImage] setHidden:TRUE];
+        [[self nextLevel] setHidden:FALSE];
     }
     
     if(page == 0){
@@ -58,6 +60,7 @@
     [self setAlphabhet3:nil];
     [self setNextImage:nil];
     [self setPrevImage:nil];
+    [self setNextLevel:nil];
     [super viewDidUnload];
 }
 
@@ -67,14 +70,14 @@
 }
 
 - (IBAction)playSound:(id)sender {
-    char alphabets[7] = {'A','G','B','F','C','E','D'};
+    char alphabets[27] = {'Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','J','K','L','Z','X','C','V','B','N','M','Q'};
     int startIndex = page * 3;
     
     int tag = ((UIButton*) sender).tag;
     NSString *fileName = [NSString stringWithFormat:@"%c",(alphabets[startIndex+tag])];
     NSLog(@"File name %@",fileName);
     NSURL *soundURL = [[NSBundle mainBundle] URLForResource:fileName
-                                              withExtension:@"mp3"];
+                                              withExtension:@"wav"];
     avSound = [[AVAudioPlayer alloc] initWithContentsOfURL:soundURL error:nil];    
     [avSound play];
 }

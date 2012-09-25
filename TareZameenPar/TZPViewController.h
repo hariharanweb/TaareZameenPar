@@ -9,6 +9,7 @@
 - (IBAction)decrementPage:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *nextImage;
 @property (weak, nonatomic) IBOutlet UIButton *prevImage;
+@property (weak, nonatomic) IBOutlet UIButton *nextLevel;
 
 
 @end
