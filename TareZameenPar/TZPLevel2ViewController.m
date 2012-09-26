@@ -7,7 +7,7 @@
 //
 
 #import "TZPLevel2ViewController.h"
-#import <AVFoundation/AVFoundation.h>
+
 
 @interface TZPLevel2ViewController ()
 @property AVQueuePlayer *queuePlayer;
@@ -122,6 +122,7 @@
     NSString *fileName = success ? @"correct":@"wrong";
     NSString *soundUrl = [[NSBundle mainBundle] pathForResource:fileName ofType:@"mp3"];
     avplayer =[[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:soundUrl] error:nil];
+    [avplayer setDelegate:self];
     [avplayer prepareToPlay];
     [avplayer play];
 }

@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface TZPLevel2ViewController : UIViewController
+@interface TZPLevel2ViewController : UIViewController<AVAudioPlayerDelegate>
 - (IBAction)alphabetClicked:(id)sender;
 
 @property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *alphabetButtons;
