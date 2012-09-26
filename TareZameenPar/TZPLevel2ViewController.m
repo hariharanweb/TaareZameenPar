@@ -50,6 +50,7 @@
         [[[self alphabetButtons] objectAtIndex:i] setBackgroundImage:image forState:UIControlStateNormal];
         [images addObject:image];
         [[[self alphabetButtons] objectAtIndex:i] setTag:random[i]];
+        [[[self alphabetButtons] objectAtIndex:i] setEnabled:TRUE];
     }
     
     [self playSound];
@@ -98,6 +99,10 @@
         }
         page = page+1;
         page = page % 7;
+        
+        for (UIButton *button in [self alphabetButtons]) {
+            [button setEnabled:FALSE];
+        }
         
         [self playSuccessFailure:TRUE];
 
